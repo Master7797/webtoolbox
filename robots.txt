@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://webtoolbox-6218.surge.sh/sitemap.xml
+
+# Crawl rules
+Crawl-delay: 10
+
+# Optimize for Google crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /

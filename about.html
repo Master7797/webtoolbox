@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - Web Toolbox</title>
+    <meta name="description" content="About Web Toolbox - free browser-based developer utilities. All processing happens client-side, no data leaves your browser." />
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root { --bg: #0f172a; --card: #1e293b; --border: #334155; --text: #e2e8f0; --muted: #94a3b8; --accent: #6366f1; --font: 'Inter', system-ui, sans-serif; }
+        body { background: var(--bg); color: var(--text); font-family: var(--font); line-height: 1.6; min-height: 100vh; }
+        .container { max-width: 800px; margin: 0 auto; padding: 2rem; }
+        h1 { font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem; }
+        h1 .gradient { background: linear-gradient(135deg, var(--accent), #a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        p { margin: 1rem 0; color: var(--muted); }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .back-link { display: inline-block; margin-top: 2rem; padding: 0.5rem 1rem; background: var(--accent); color: #fff; border-radius: 8px; }
+        .back-link:hover { background: #818cf8; text-decoration: none; }
+        footer { text-align: center; padding: 2rem 0; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); margin-top: 2rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><span class="gradient">About</span> Web Toolbox</h1>
+        <p>Web Toolbox is a collection of <strong>free, browser-based developer utilities</strong> designed for everyday web development tasks.</p>
+        <p><strong>All processing happens entirely in your browser.</strong> No data is sent to any server, no files are uploaded, and nothing is stored externally. Your information never leaves your device.</p>
+        <h2 style="margin-top:2rem;color:var(--text);">Why We Built This</h2>
+        <p>Developers frequently need quick tools — JSON formatting, Base64 encoding, hash generation, color conversion — but many online tools either require uploads to external servers, display intrusive ads, or limit usage. Web Toolbox was created to provide a <strong>fast, private, and completely free</strong> alternative.</p>
+        <h2 style="margin-top:2rem;color:var(--text);">Our Principles</h2>
+        <p>🔒 <strong>Privacy First</strong> — Zero server-side processing. All data stays in your browser.</p>
+        <p>⚡ <strong>Fast & Lightweight</strong> — Single HTML file, no dependencies, instant load.</p>
+        <p>🌍 <strong>Free Forever</strong> — No accounts, no paywalls, no usage limits.</p>
+        <p>🔧 <strong>Open & Transparent</strong> — All code is client-side and can be inspected via browser DevTools.</p>
+        <p>If you find these tools useful, consider <a href="https://ko-fi.com/devutilshub" target="_blank" rel="noopener">supporting the project on Ko-fi</a>.</p>
+        <a href="/" class="back-link">← Back to Tools</a>
+        <footer>
+            <p>Web Toolbox · <a href="/">Home</a> · <a href="/about.html">About</a> · <a href="/privacy.html">Privacy</a></p>
+        </footer>
+    </div>
+</body>
+</html>
