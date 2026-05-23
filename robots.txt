@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://webtoolbox-6218.surge.sh/sitemap.xml
+Sitemap: https://056f2ea0-webtoolbox.lm-code.workers.dev/sitemap.xml
 
 # Crawl rules
 Crawl-delay: 10
